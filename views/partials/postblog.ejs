@@ -1,0 +1,53 @@
+<main class="container mt-5" data-bs-theme="dark">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <form action="/createblog" method="POST">
+        <!-- Titel -->
+        <div class="mb-3">
+          <label for="title" class="form-label" name="title">Titel</label>
+          <input
+            type="text"
+            class="form-control"
+            id="title"
+            name="title"
+            placeholder="Gib dem Blogeintrag einen Titel"
+            required
+          />
+        </div>
+
+        <!-- Beschreibung -->
+        <div class="mb-3">
+          <label for="description" class="form-label" name="description"
+            >Kurze Beschreibung</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="description"
+            name="description"
+            placeholder="Worum geht es in diesem Beitrag?"
+            required
+          />
+        </div>
+
+        <!-- Inhalt -->
+        <div class="mb-3">
+          <label for="content" class="form-label" name="content">Inhalt</label>
+          <textarea
+            class="form-control"
+            id="content"
+            name="content"
+            rows="10"
+            placeholder="Schreib hier deinen vollständigen Blogeintrag..."
+            required
+          ></textarea>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" class="btn btn-success w-100">
+          Veröffentlichen
+        </button>
+      </form>
+    </div>
+  </div>
+</main>

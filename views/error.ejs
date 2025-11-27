@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fehler</title>
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/stylesheets/custom.css" rel="stylesheet" />
+  </head>
+  <body dark-bs-theme="dark">
+    <%- include('partials/header') %>
+    <h1>Fehler <%= error.status || 500 %></h1>
+    <p><%= error.message %></p>
+    <%- include('partials/footer') %>
+  </body>
+</html>
