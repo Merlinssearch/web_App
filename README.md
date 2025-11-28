@@ -32,10 +32,6 @@ cd <REPO_FOLDER>
 # Node-Modules installieren
 npm install
 
-# Beispielumgebung kopieren und anpassen
-cp .env.example .env
-# .env editieren: PORT, DATABASE_URL, JWT_SECRET, etc.
-
 # Entwicklungsserver starten
 # Falls package.json ein "dev"-Script hat:
 npm run dev
