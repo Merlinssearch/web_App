@@ -9,7 +9,7 @@ Kleines Lernprojekt: einfacher Web-Server mit Nutzer-Kontext, Logging, Passwort-
 
 * Nutzer-Authentifizierung (Registration / Login)
 * Passwort-Hashing (bcrypt)
-* Posts: erstellen, bearbeiten, löschen, abrufen
+* Posts: erstellen, bearbeiten, löschen, abrufen | Noch nicht fertig 
 * Logging (z. B. morgan/winston)
 * Datenbank als JSON simuliert 
 
@@ -32,8 +32,6 @@ cd <REPO_FOLDER>
 # Node-Modules installieren
 npm install
 npm audit fix
-# Entwicklungsserver starten
-# Falls package.json ein "dev"-Script hat:
 npm run dev
 
 # Oder Production/Start:
